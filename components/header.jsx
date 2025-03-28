@@ -1,6 +1,6 @@
 import React from "react";
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-import Image from "next/image";
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { LayoutDashboard, PenBox } from "lucide-react";
@@ -15,9 +15,9 @@ const Header = async () => {
     <div className="fixed top-0 w-full bg-black backdrop-blur-md z-50 border-b  ">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
-        <AnimatedGradientText className="text-4xl font-medium">
-        FinGenius
-      </AnimatedGradientText>
+          <AnimatedGradientText className="text-4xl font-medium">
+            FinGenius
+          </AnimatedGradientText>
         </Link>
         <div className="flex items-center space-x-4">
           <SignedIn>

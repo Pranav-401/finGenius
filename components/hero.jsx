@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Link from "next/link";
 
 import { AuroraText } from "@/components/magicui/aurora-text";
 

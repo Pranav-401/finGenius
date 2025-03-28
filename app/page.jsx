@@ -1,12 +1,7 @@
 "use client";
 import HeroSection from "@/components/hero";
 import FinancialAdvisorChat from "@/components/FinancialAdvisorChat";
-import {
-  featuresData,
-  howItWorksData,
-  statsData,
-  testimonialsData,
-} from "@/data/landing";
+import { howItWorksData } from "@/data/landing";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
