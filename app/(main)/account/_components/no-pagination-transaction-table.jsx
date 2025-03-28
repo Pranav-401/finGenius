@@ -153,7 +153,7 @@ export function NoPaginationTransactionTable({ transactions }) {
   const handleBulkDelete = async () => {
     if (
       !window.confirm(
-        `Are you sure you want to delete ${selectedIds.length} transactions?`
+        `Are you sure you want to delete ₹{selectedIds.length} transactions?`
       )
     )
       return;
@@ -346,7 +346,7 @@ export function NoPaginationTransactionTable({ transactions }) {
                         : "text-green-500"
                     )}
                   >
-                    {transaction.type === "EXPENSE" ? "-" : "+"}$
+                    {transaction.type === "EXPENSE" ? "-" : "+"}₹
                     {transaction.amount.toFixed(2)}
                   </TableCell>
                   <TableCell>
@@ -397,7 +397,7 @@ export function NoPaginationTransactionTable({ transactions }) {
                         <DropdownMenuItem
                           onClick={() =>
                             router.push(
-                              `/transaction/create?edit=${transaction.id}`
+                              `/transaction/create?edit=₹{transaction.id}`
                             )
                           }
                         >
