@@ -15,7 +15,7 @@ const Header = async () => {
     <div className="fixed top-0 w-full bg-black backdrop-blur-md z-50 border-b  ">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
-          <AnimatedGradientText className="text-2xl sm:text-3xl md:text-4xl font-medium">
+          <AnimatedGradientText className="text-2xl sm:text-2xl md:text-4xl font-medium">
             FinGenius
           </AnimatedGradientText>
         </Link>
