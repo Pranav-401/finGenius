@@ -1,24 +1,72 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# Fingenius 🚀  
+**AI-Powered Personalized Accountant App**  
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+Fingenius is a cutting-edge financial management solution developed during **HackVerse 2025**, a 24-hour hackathon at **Watumull Institute of Engineering and Technology (WIET), Mumbai**. Our team, **CodeCrafter**, built this app to tackle real-world financial challenges with AI-driven insights.  
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
-DIRECT_URL=
+## 🎯 Problem Statement
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+Managing personal finances can be tedious and error-prone. Fingenius solves the following problems:  
 
-GEMINI_API_KEY=
+- ❌ Eliminates manual bookkeeping & expense tracking  
+- ✅ Provides real-time financial insights & automated budgeting  
+- 💰 Simplifies tax calculations & filing  
+- 🔒 Enhances fraud detection & security  
 
-RESEND_API_KEY=
+---
 
-ARCJET_KEY=
-```
+## 💡 Unique Features
+
+- 🧠 **AI-driven transaction reconciliation** for error-free records  
+- 📊 Personalized **budgeting & investment recommendations**  
+- 🌐 **Multi-platform banking & tax integration**  
+- 🖥 **User-friendly AI dashboard** to simplify financial decisions  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend & Backend:** Next.js  
+- **Database & Auth:** Supabase  
+- **Background Jobs:** Inngest  
+- **Email Communication:** Resend  
+- **Authentication & User Management:** Clerk  
+- **UI:** ShadCN UI & Tailwind CSS  
+
+---
+
+## 🚀 Hackathon Experience & Takeaways
+
+- Effective task distribution based on team strengths  
+- Building features that solve real-world problems is more valuable than just coding  
+- Presenting with real-world examples enhances impact  
+- Teamwork, planning, and structured execution are key for success  
+
+---
+
+## 🔗 Project Links
+
+- **Live Demo:** [Fingenius App](https://lnkd.in/dNGrXR-G)  
+- **GitHub Repository:** [Fingenius Repo](https://lnkd.in/d53g64Wz)  
+
+---
+
+## 🏆 Team Members
+
+- **Pranav Maurya** – Team Leader
+- **Utkarsh Kadam** – Team Member  
+- **Nikhil Bhilare** – Team Member  
+
+---
+
+## 📈 Future Enhancements
+
+- Add AI-driven predictive analytics  
+- Multi-user support with secure authentication  
+- Mobile-friendly interface  
+- Integrations with bank APIs for real-time financial tracking  
+
+---
+
+**Built with 💡 during HackVerse 2025**  
