@@ -69,4 +69,4 @@ Managing personal finances can be tedious and error-prone. Fingenius solves the 
 
 ---
 
-**Built with 💡 during HackVerse 2025**  
+**Built with 💡 during HackVerse 2024**  
